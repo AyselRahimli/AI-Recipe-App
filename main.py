@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-st.title('Ingredient-Based Recipe App')
+st.title('Recipe AI applications for Pantry')
 
 ingredients = st.text_input('Enter your ingredients (comma-separated)')
 if ingredients:
